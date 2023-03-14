@@ -7,20 +7,22 @@
     tools:context=".fragments.BaiHatNgauNhienFragment">
 
     <TextView
-        android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Có thể bạn thích"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:background="#F0CB35"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Try something new"
         android:textColor="@color/black"
-        android:gravity="center"/>
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/fmBaiHatNgauNhien_recyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:nestedScrollingEnabled="false"/>
+        android:background="#F0CB35"
+        android:nestedScrollingEnabled="false" />
 
 <!--    <TextView-->
 <!--        android:textColor="#736868"-->

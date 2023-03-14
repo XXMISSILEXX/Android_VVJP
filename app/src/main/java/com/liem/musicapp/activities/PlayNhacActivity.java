@@ -287,7 +287,7 @@ public class PlayNhacActivity extends AppCompatActivity {
                 baiHat = (BaiHat) intent.getParcelableExtra("baiHat");
                 baiHatArrayList = intent.getParcelableArrayListExtra("listBaiHat");
                 positon = baiHatArrayList.indexOf(baiHat);
-                Log.d("tag", baiHatArrayList.get(1).getHinhAnhBaiHat());
+                Log.d("tag", baiHatArrayList.get(0).getHinhAnhBaiHat());
             } else if (intent.hasExtra("baiHat")) {
                 baiHat = (BaiHat) intent.getParcelableExtra("baiHat");
                 baiHatArrayList = new ArrayList<>();

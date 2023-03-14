@@ -7,19 +7,21 @@
     android:orientation="vertical">
 
     <TextView
-        android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="THỂ LOẠI"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:background="#F0CB35"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="GENRE"
         android:textColor="@color/black"
-        android:gravity="center"/>
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fmTheLoai_recyclerView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/fmTheLoai_recyclerView"/>
+        android:background="#F0CB35" />
 
 <!--    <TextView-->
 <!--        android:textColor="#736868"-->

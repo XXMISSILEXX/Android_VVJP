@@ -10,16 +10,19 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#C02425"
         android:gravity="center"
         android:padding="10dp"
-        android:text="NHỊP ĐIỆU CẢM XÚC"
-        android:textColor="@color/black"
+        android:text="FEEL THE BEAT!!!"
+        android:textColor="@color/white"
+        android:textColorHighlight="#FE4B1F"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#C02425">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/fmPlaylist_recyclerView"

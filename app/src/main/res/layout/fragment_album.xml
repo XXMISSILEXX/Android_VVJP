@@ -7,20 +7,22 @@
     android:orientation="vertical">
 
     <TextView
-        android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#F0CB35"
+        android:gravity="center"
+        android:padding="10dp"
         android:text="Album"
+        android:textColor="#000000"
         android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:gravity="center"/>
+        android:textStyle="bold" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/fmAlbum_recyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:nestedScrollingEnabled="false"/>
+        android:background="#F0CB35"
+        android:nestedScrollingEnabled="false" />
 
 <!--    <TextView-->
 <!--        android:textColor="#736868"-->
